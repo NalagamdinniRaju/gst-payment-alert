@@ -1,0 +1,301 @@
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #e6e6e6;
+  }
+  
+  /* Invoice List */
+  .invoice-list {
+    margin: 2rem;
+  }
+  
+  .invoice-list table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .invoice-list th,
+  .invoice-list td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  
+  .invoice-list th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Invoice Detail */
+  .invoice-detail {
+    margin: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+
+  /* components.css */
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  nav ul li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Invoice Details  */
+  /* styles.css */
+
+.invoice-detail {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .invoice-detail h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+  }
+  
+  .invoice-detail p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .invoice-detail p span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .invoice-detail p a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .invoice-detail p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Reminder css */
+  /* components.css */
+
+.reminder {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reminder h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+  }
+  
+  .reminder table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .reminder table thead tr {
+    background-color: #4CAF50;
+    color: #ffffff;
+  }
+  
+  .reminder table thead th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .reminder table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .reminder table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .reminder table tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #dddddd;
+    color: #555;
+  }
+  
+  .reminder table tbody td:first-child {
+    font-weight: bold;
+  }
+  
+  .reminder table tbody td:last-child {
+    text-align: center;
+  }
+  
+  .reminder table tbody td:last-child span {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .reminder table tbody td:last-child span.paid {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .reminder table tbody td:last-child span.pending {
+    background-color: #FFA500;
+    color: white;
+  }
+  
+  .reminder table tbody td:last-child span.overdue {
+    background-color: #FF6347;
+    color: white;
+  }
+
+  /* components.css */
+
+.settings-page {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settings-page h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .settings-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .form-group input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+  }
+  
+  .save-button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .save-button:hover {
+    background-color: #45a049;
+  }
+  
+  .save-button:disabled {
+    background-color: #9e9e9e;
+    cursor: not-allowed;
+  }
+  
+  
